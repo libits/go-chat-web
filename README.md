@@ -19,7 +19,7 @@
 * 视频通话（基于webrtc的p2p视频通话）
 
 ## 后端
-[代码仓库](https://github.com/kone-net/go-chat)
+[代码仓库](https://github.com/libits/go-chat)
 go中协程是非常轻量级的。在每个client接入的时候，为每一个client开启一个协程，能够在单机实现更大的并发。同时go的channel，可以非常完美的解耦client接入和消息的转发等操作。
 
 通过go-chat，可以掌握channel的和Select的配合使用，ORM框架的使用，web框架Gin的使用，配置管理，日志操作，还包括proto buffer协议的使用，等一些列项目中常用的技术。
@@ -40,8 +40,6 @@ go中协程是非常轻量级的。在每个client接入的时候，为每一个
 基于react,UI和基本组件是使用ant design。可以很方便搭建前端界面。
 
 界面选择单页框架可以更加方便写聊天界面，比如像消息提醒，可以在一个界面接受到消息进行提醒，不会因为换页面或者查看其他内容影响消息接受。
-[前端代码仓库](https://github.com/kone-net/go-chat-web)：
-https://github.com/kone-net/go-chat-web
 
 
 ### 前端技术和框架
